@@ -1,0 +1,33 @@
+:root {
+  --primary-button-color: cornflowerblue;
+  --secondary-button-colour: turquoise;
+}
+
+.btn-branding-primary {
+  background-color: var(--primary-button-color);
+  color: white;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+.btn-branding-secondary {
+  background-color: var(--secondary-button-colour);
+  color: white;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+.contact-links {
+  margin-top: 30px;
+}
+
+.hero {
+  margin: 75px 8px 10px 8px;
+  border: 5px solid black;
+  padding: 30px 25px;
+}
+
+.hero .welcome-message {
+  text-align: right;
+  margin-top: 150px;
+}
