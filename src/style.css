@@ -1,6 +1,8 @@
 :root {
   --primary-button-color: cornflowerblue;
   --secondary-button-colour: turquoise;
+  --heading-font: "Montserrat", sans-serif;
+  --paragraph-font: "Open Sans", sans-serif;
 }
 
 .btn-branding-primary {
@@ -30,4 +32,16 @@
 .hero .welcome-message {
   text-align: right;
   margin-top: 150px;
+  font-family: var(--heading-font);
+  font-weight: 300;
+  font-style: italic;
+}
+
+h1 {
+  font-family: var(--heading-font);
+}
+
+h2,
+h4 {
+  font-family: var(--paragraph-font);
 }
