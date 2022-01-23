@@ -4,29 +4,42 @@
   --heading-font: "Montserrat", sans-serif;
   --paragraph-font: "Open Sans", sans-serif;
   --background-color: #f9f6e4;
+  --highlight-color: #f7c289;
 }
 
 .btn-branding-primary {
   background-color: var(--primary-button-color);
   color: white;
   border-radius: 4px;
-  padding: 10px 20px;
+  padding: 12px 25px;
 }
 
 .btn-branding-secondary {
   background-color: var(--secondary-button-colour);
   color: white;
   border-radius: 4px;
-  padding: 10px 20px;
+  padding: 12px 25px;
 }
 
 .contact-links {
   margin-top: 30px;
 }
 
+.contact-links a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  background-color: var(--highlight-color);
+  color: white;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
 .hero {
   margin: 75px 20px 10px 20px;
-  border: 2px solid #eae48f;
+  border: 2px solid var(--highlight-color);
   border-radius: 5px;
   padding: 30px 25px;
   background-color: var(--background-color);
@@ -54,14 +67,14 @@
   font-size: 50px;
   text-decoration: none;
   color: var(--primary-button-color);
-  margin-top: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 10px 5px 50px 5px;
 }
 
-.navbar-colour {
-  background-color: var(--primary-button-color);
-  color: white;
+.social-links a:hover {
+  background-color: white;
+  color: var(--highlight-color);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
 }
 
 h1 {
