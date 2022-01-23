@@ -38,7 +38,10 @@
 }
 
 .hero {
-  margin: 75px 20px 10px 20px;
+  margin-top: 75px;
+  max-width: fit-content;
+  margin-right: 25px;
+  margin-left: 25px;
   border: 2px solid var(--highlight-color);
   border-radius: 5px;
   padding: 30px 25px;
@@ -75,6 +78,10 @@
   color: var(--highlight-color);
   cursor: pointer;
   transition: all 200ms ease-in-out;
+}
+
+.img-fluid {
+  margin-top: -32px;
 }
 
 h1 {
