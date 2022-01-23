@@ -37,6 +37,14 @@
   transition: all 200ms ease-in-out;
 }
 
+@media (max-width: 576px) {
+  .contact-links a {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+  }
+}
+
 .hero {
   margin-top: 75px;
   max-width: fit-content;
