@@ -92,6 +92,22 @@
   margin-top: -32px;
 }
 
+.project-link {
+  background-color: var(--primary-button-color);
+  color: white;
+  border-radius: 4px;
+  padding: 12px 25px;
+  display: block;
+  text-align: center;
+}
+
+.project-link:hover {
+  background-color: var(--highlight-color);
+  color: white;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
 h1 {
   font-family: var(--heading-font);
   color: var(--primary-button-color);
