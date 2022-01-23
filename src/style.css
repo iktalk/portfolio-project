@@ -1,8 +1,9 @@
 :root {
-  --primary-button-color: cornflowerblue;
-  --secondary-button-colour: turquoise;
+  --primary-button-color: #f28775;
+  --secondary-button-colour: #f9d9c0;
   --heading-font: "Montserrat", sans-serif;
   --paragraph-font: "Open Sans", sans-serif;
+  --background-color: #f9f6e4;
 }
 
 .btn-branding-primary {
@@ -24,9 +25,12 @@
 }
 
 .hero {
-  margin: 75px 8px 10px 8px;
-  border: 5px solid black;
+  margin: 75px 20px 10px 20px;
+  border: 2px solid #eae48f;
+  border-radius: 5px;
   padding: 30px 25px;
+  background-color: var(--background-color);
+  box-shadow: 0px 10px 17px 2px rgba(110, 110, 109, 0.2);
 }
 
 .hero .welcome-message {
@@ -52,6 +56,11 @@
   margin-top: 10px;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.navbar-colour {
+  background-color: var(--primary-button-color);
+  color: white;
 }
 
 h1 {
