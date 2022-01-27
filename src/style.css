@@ -1,10 +1,10 @@
 :root {
-  --primary-button-color: #f28775;
-  --secondary-button-colour: #f9d9c0;
+  --primary-button-color: #7393c2;
+  --secondary-button-colour: #e0c0d3;
   --heading-font: "Montserrat", sans-serif;
   --paragraph-font: "Open Sans", sans-serif;
-  --background-color: #f9f6e4;
-  --highlight-color: #f7c289;
+  --background-color: #efe4e6;
+  --highlight-color: #b6c7dd;
 }
 
 .btn-branding-primary {
@@ -46,20 +46,15 @@
 }
 
 .hero {
-  margin-top: 75px;
-  max-width: fit-content;
-  margin-right: 25px;
-  margin-left: 25px;
-  border: 2px solid var(--highlight-color);
-  border-radius: 5px;
-  padding: 30px 25px;
+  margin-top: 55px;
   background-color: var(--background-color);
-  box-shadow: 0px 10px 17px 2px rgba(110, 110, 109, 0.2);
+  padding: 100px 50px;
+  border-radius: 4px;
 }
 
 .hero .welcome-message {
   text-align: right;
-  margin-top: 150px;
+  margin-top: 270px;
   font-family: var(--heading-font);
   font-weight: 300;
   font-style: italic;
@@ -115,17 +110,6 @@
   border-radius: 5px;
   background-color: var(--background-color);
   box-shadow: 0px 10px 17px 2px rgba(110, 110, 109, 0.2);
-}
-
-.project-img {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 576px) {
-  .project-img {
-    display: none;
-  }
 }
 
 h1 {
