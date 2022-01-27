@@ -46,10 +46,16 @@
 }
 
 .hero {
-  margin-top: 55px;
-  background-color: var(--background-color);
   padding: 100px 50px;
   border-radius: 4px;
+
+  background: rgb(86, 128, 233);
+  background: linear-gradient(
+    352deg,
+    rgba(86, 128, 233, 1) 0%,
+    rgba(193, 208, 228, 1) 54%,
+    rgba(106, 96, 208, 1) 100%
+  );
 }
 
 .hero .welcome-message {
@@ -112,6 +118,11 @@
   box-shadow: 0px 10px 17px 2px rgba(110, 110, 109, 0.2);
 }
 
+.navbar-name {
+  font-family: var(--heading-font);
+  opacity: 75%;
+}
+
 h1 {
   font-family: var(--heading-font);
   color: var(--primary-button-color);
@@ -120,6 +131,7 @@ h1 {
 h2,
 h4 {
   font-family: var(--paragraph-font);
+  opacity: 75%;
 }
 
 hr {
