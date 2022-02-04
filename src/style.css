@@ -25,11 +25,17 @@
   background: radial-gradient(
     circle at 50% 50%,
     #fbe8a6,
-    #fbdf98,
-    #fcd58b,
-    #fdcb7f,
-    #fec075,
-    #ffb56b
+    #f7e9a7,
+    #edebab,
+    #deeeb2,
+    #cef0bd,
+    #bff1cb,
+    #b5f0da,
+    #b1eee6,
+    #b2ecee,
+    #b6e9f2,
+    #bae8f4,
+    #bce7f4
   );
 }
 
@@ -67,11 +73,17 @@
   background: radial-gradient(
     circle at 50% 50%,
     #fbe8a6,
-    #fbdf98,
-    #fcd58b,
-    #fdcb7f,
-    #fec075,
-    #ffb56b
+    #f7e9a7,
+    #edebab,
+    #deeeb2,
+    #cef0bd,
+    #bff1cb,
+    #b5f0da,
+    #b1eee6,
+    #b2ecee,
+    #b6e9f2,
+    #bae8f4,
+    #bce7f4
   );
 }
 
@@ -149,11 +161,26 @@
 .about-hero {
   padding: 100px 50px;
   border-radius: 4px;
+  margin-top: 50px;
 }
 
 .img-headshot {
   border-radius: 10px;
   margin: 10px 0px 10px 0px;
+}
+
+.training-grid {
+  margin-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.title-certificate {
+  margin-bottom: 45px;
+}
+
+.img-certificate {
+  border-radius: 4px;
 }
 
 h1 {
