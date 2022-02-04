@@ -146,6 +146,16 @@
   opacity: 75%;
 }
 
+.about-hero {
+  padding: 100px 50px;
+  border-radius: 4px;
+}
+
+.img-headshot {
+  border-radius: 10px;
+  margin: 10px 0px 10px 0px;
+}
+
 h1 {
   font-family: var(--heading-font);
   color: var(--primary-button-color);
