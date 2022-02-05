@@ -222,6 +222,12 @@
   }
 }
 
+@media (min-width: 992px) {
+  .skills-grid {
+    flex-wrap: nowrap;
+  }
+}
+
 h1 {
   font-family: var(--heading-font);
   color: var(--primary-button-color);
