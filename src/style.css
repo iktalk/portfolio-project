@@ -216,15 +216,9 @@
   margin-top: 5px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   .skill-name {
     display: none;
-  }
-}
-
-@media (min-width: 992px) {
-  .skills-grid {
-    flex-wrap: nowrap;
   }
 }
 
