@@ -169,9 +169,15 @@
 }
 
 .img-headshot {
-  border-radius: 300px;
+  border-radius: 360px;
   margin: 10px 0px 10px 0px;
   border: 10px solid #bce7f4;
+}
+
+@media (max-width: 767px) {
+  .img-headshot {
+    display: none;
+  }
 }
 
 .training-highlight {
@@ -190,6 +196,12 @@
 
 .img-certificate {
   border-radius: 4px;
+}
+
+@media (max-width: 767px) {
+  .img-certificate {
+    margin-bottom: 55px;
+  }
 }
 
 .skills-grid {
