@@ -67,9 +67,7 @@
   }
 }
 
-.hero {
-  padding: 100px 50px;
-  border-radius: 4px;
+.background-home {
   background: radial-gradient(
     circle at 50% 50%,
     #fbe8a6,
@@ -85,6 +83,14 @@
     #bae8f4,
     #bce7f4
   );
+}
+
+.hero {
+  padding: 100px 50px;
+  border-radius: 4px;
+  background-image: url(../images/15.gif);
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 .hero .welcome-message {
