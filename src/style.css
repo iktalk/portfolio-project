@@ -248,27 +248,6 @@
 
 .projects-hero {
   padding: 100px 50px;
-  border-radius: 4px;
-  background: radial-gradient(
-    circle at 50% 50%,
-    #fbe8a6,
-    #f7e9a7,
-    #edebab,
-    #deeeb2,
-    #cef0bd,
-    #bff1cb,
-    #b5f0da,
-    #b1eee6,
-    #b2ecee,
-    #b6e9f2,
-    #bae8f4,
-    #bce7f4
-  );
-}
-
-.projects-title {
-  margin-top: 300px;
-  margin-bottom: -80px;
 }
 
 .projects-body {
