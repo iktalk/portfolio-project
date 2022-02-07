@@ -271,6 +271,25 @@
   margin-bottom: -80px;
 }
 
+.projects-body {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 50px;
+  display: block;
+  text-align: center;
+}
+
+.project-image {
+  max-width: 90%;
+  max-height: 90%;
+  margin: 20px 0px 10px 0px;
+}
+
+.project-details {
+  border: 10px solid #bce7f4;
+  border-radius: 5px;
+}
+
 h1 {
   font-family: var(--heading-font);
   color: var(--primary-button-color);
