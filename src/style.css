@@ -275,6 +275,10 @@
   margin: 20px 0px;
 }
 
+.contact-body {
+  padding: 100px 90px;
+}
+
 h1 {
   font-family: var(--heading-font);
   color: var(--primary-button-color);
