@@ -4,7 +4,7 @@
   --heading-font: "Montserrat", sans-serif;
   --paragraph-font: "Open Sans", sans-serif;
   --background-color: #efe4e6;
-  --highlight-color: #b6c7dd;
+  --highlight-color: #bce7f4;
 }
 
 .btn-branding-primary {
@@ -119,7 +119,7 @@
 }
 
 .social-links h4 {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .social-links a {
@@ -285,6 +285,12 @@ footer .contact-box {
 
 .contact-body {
   padding: 100px 90px;
+}
+
+.contact-email:hover {
+  color: #bce7f4;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
 }
 
 h1 {
